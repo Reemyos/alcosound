@@ -64,7 +64,6 @@ def send_receive_all(ips, port):
     while not stop_thread:
         for ip in ips:
             pair = send_receive(ip, port)
-            # time.sleep(TIMEOUT)
             if pair is None:
                 continue
             val, sent_to = pair
@@ -110,7 +109,7 @@ if __name__ == "__main__":
 
         start_time = time.time()
 
-        while (len(bass_data) or len(vocals_data) or len(drums_data) or len(music_data)):
+        while len(bass_data) or len(vocals_data) or len(drums_data) or len(music_data):
             print(len(drums_times), len(bass_times), len(vocals_times))
 
             newdata = filter_according_to_drink()
