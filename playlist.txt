@@ -1,0 +1,4 @@
+# Playlist for alcosound
+playlist/roar/*
+playlist/sugar/*
+playlist/texas/*
