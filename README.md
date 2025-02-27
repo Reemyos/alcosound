@@ -9,9 +9,3 @@ added a feature that makes the effect of your drink disappear after a
 specified amount of time. The idea is that your drink will effect the music
 as long as you're drinking it. But once you're done, your drink will no
 longer be a part of the music.
-
-## Demo
-The video below shows the project in action:
-
-
-(The video is not yet available)
